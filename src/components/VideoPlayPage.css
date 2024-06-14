@@ -1,0 +1,62 @@
+/* src/components/VideoPlayPage.css */
+
+/* Container for the video play page */
+.video-play-page {
+    display: flex; /* Layout videos side by side */
+    flex-direction: row;
+    padding: 20px;
+  }
+  
+  /* Video player section */
+  .video-player {
+    flex: 3; /* Occupies more space in the layout */
+    text-align: center; /* Center the content */
+  }
+  
+  /* Styling the YouTube embedded video */
+  .video-player iframe {
+    width: 100%; /* Responsive width */
+    max-width: 800px; /* Maximum width to prevent overflow */
+    height: 450px; /* Fixed height */
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  /* Related videos section */
+  .related-videos {
+    flex: 1; /* Occupies smaller space in the layout */
+    padding-left: 20px; /* Padding between the video player and related videos */
+  }
+  
+  /* Individual related video card */
+  .related-video-card {
+    display: flex; /* Horizontal layout */
+    margin-bottom: 20px; /* Space between related videos */
+    cursor: pointer; /* Changes the cursor to pointer on hover */
+  }
+  
+  /* Thumbnail image for related videos */
+  .related-video-card img {
+    width: 120px; /* Fixed width for the thumbnail */
+    border-radius: 8px; /* Rounded corners for the thumbnail */
+  }
+  
+  /* Information for the related video */
+  .related-video-info {
+    padding-left: 10px; /* Space between the thumbnail and text */
+    display: flex;
+    align-items: center; /* Aligns text vertically in the center */
+  }
+  
+  /* Title of the related video */
+  .related-video-info h4 {
+    font-size: 1rem; /* Font size for the title */
+    margin: 0; /* Remove margin */
+    color: #333; /* Dark gray text color */
+  }
+  
+  /* Hover effect for the related video cards */
+  .related-video-card:hover {
+    background-color: #f5f5f5; /* Light background on hover */
+  }
+  

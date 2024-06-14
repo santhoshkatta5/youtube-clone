@@ -1,0 +1,90 @@
+/* src/components/HomePage.css */
+.home-page {
+    padding: 20px;
+  }
+  
+  .search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-form input {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-form button {
+    padding: 8px 16px;
+    margin-left: 10px;
+    border: none;
+    background-color: #2196f3;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .search-form button:hover {
+    background-color: #1976d2;
+  }
+  
+  .video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .video-card {
+    flex: 1 0 30%;
+    max-width: 30%;
+  }
+  
+  .video-card img {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  .video-card .video-info {
+    padding: 10px;
+  }
+  
+  .video-card .video-info h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .video-card .video-info p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  /* src/components/VideoPlayPage.css */
+  .video-play-page {
+    display: flex;
+  }
+  
+  .video-player {
+    flex: 3;
+  }
+  
+  .related-videos {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .related-video-card {
+    margin-bottom: 20px;
+  }
+  
+  .related-video-card img {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  .related-video-card .related-video-info h4 {
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  
